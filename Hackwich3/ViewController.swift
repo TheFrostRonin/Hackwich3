@@ -10,9 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var firstLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+//set firstLabel to the string "about"
+        
+self.firstLabel.text = "about"
+    
     }
 
     override func didReceiveMemoryWarning() {
