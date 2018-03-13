@@ -12,7 +12,7 @@ class thirdViewController: UIViewController, UITableViewDataSource,UITableViewDe
 
     
     @IBOutlet weak var tableView: UITableView!
-    var myBucketListArray =  ["I would want to visit Japan", "I would like to meet and celebrity", "I want to check out a national mounument", "I would like to take a tour of Funimation", "I would like to visit China"]
+    var myBucketListArray =  ["I would want to visit Japan", "I would like to meet a celebrity", "I want to check out a national mounument", "I would like to take a tour of Funimation", "I would like to visit China"]
 
     
     override func viewDidLoad() {
