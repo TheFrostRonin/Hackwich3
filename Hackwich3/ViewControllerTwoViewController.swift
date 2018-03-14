@@ -19,8 +19,8 @@ class ViewControllerTwoViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
+        self.textField.text = ""
         self.displayTextLabel.text = ""
-        
         
     }
 
@@ -31,16 +31,15 @@ class ViewControllerTwoViewController: UIViewController {
     
     @IBAction func setLabelButtonPressed(_ sender: Any) {
         
-        let userText: Float!
+        var usertext: Float
         
-        let celsius: Float
+        usertext = Float(textField.text!)!
         
-        userText = (displayTextLabel.text! as NSString).floatValue
+        var celsius:String
         
-        celsius = (userText - 32) * (5/9)
+        celsius = String((usertext - 32) * 5/9)
         
-        displayTextLabel.text = "Today is \(celsius) degrees"
-    
+        self.displayTextLabel.text = "Today is \(celsius) degrees"
         
         
     }

@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         
         self.aboutMe.text = "About Me"
         
-        self.paragraphAbout.text = "I was born and raised on the island of Oahu, Hawaii. I do community service along with my church where my whole church will go to cerent places and clean it up and make all brand new."
+        self.paragraphAbout.text = "I was born and raised on the island of Oahu, Hawaii. I do community service along with my church where my whole church will go to certain places and clean it up and make all brand new."
         
         myProfilePic.image = UIImage(named: "IMG_2337")
         myLogo.image = UIImage(named: "SAO")
